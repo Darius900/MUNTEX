@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MUNTEX/static/css/main.f7525eed.css",
+    "main.js": "/MUNTEX/static/js/main.a52c1fc1.js",
+    "static/js/787.6b31ad90.chunk.js": "/MUNTEX/static/js/787.6b31ad90.chunk.js",
+    "static/media/clouds.jpg": "/MUNTEX/static/media/clouds.e262039a3e40964013f2.jpg",
+    "static/media/mountains3.jpg": "/MUNTEX/static/media/mountains3.f7ecabad5cd27b47ab14.jpg",
+    "static/media/petzl.png": "/MUNTEX/static/media/petzl.a0eed1d753fbf86857c9.png",
+    "static/media/salomon.png": "/MUNTEX/static/media/salomon.289e1f5240932008381b.png",
+    "static/media/mamut.png": "/MUNTEX/static/media/mamut.c36310b5760c8b41cf85.png",
+    "static/media/deuter.png": "/MUNTEX/static/media/deuter.123b68a00fc9c25d17cc.png",
+    "static/media/northface.png": "/MUNTEX/static/media/northface.5530c442450168178080.png",
+    "static/media/columbia.png": "/MUNTEX/static/media/columbia.7d277945777c18e9a0c6.png",
+    "index.html": "/MUNTEX/index.html",
+    "main.f7525eed.css.map": "/MUNTEX/static/css/main.f7525eed.css.map",
+    "main.a52c1fc1.js.map": "/MUNTEX/static/js/main.a52c1fc1.js.map",
+    "787.6b31ad90.chunk.js.map": "/MUNTEX/static/js/787.6b31ad90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7525eed.css",
+    "static/js/main.a52c1fc1.js"
+  ]
+}
