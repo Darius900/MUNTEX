@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+}
+
+.about-us-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(mountains3.jpg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us {
+  padding: 4rem 2rem;
+  margin-top: 4rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 800px;
+}
+
+.about-us h1,
+.about-us h2 {
+  font-size: 3rem;
+  color: #1c1e21;
+  margin-bottom: 2rem;
+}
+
+.about-us p {
+  font-size: 1.4rem;
+  color: #3e4145;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about-us {
+  border: 1px solid #e0e0e0;
+}

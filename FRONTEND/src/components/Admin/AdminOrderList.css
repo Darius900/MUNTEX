@@ -1,0 +1,74 @@
+.admin-product-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-product-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .admin-product-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-product-list thead th {
+    text-align: left;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-product-list tbody td {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-product-list tbody td:first-child {
+    width: 10%;
+}
+
+.admin-product-list tbody td:nth-child(2) {
+width: 60%;
+}
+
+.admin-product-list tbody td:last-child {
+width: 20%;
+text-align: center;
+}
+
+.admin-product-list button {
+background-color: #f44336;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.admin-product-list button:hover {
+background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+.admin-product-list {
+padding: 10px;
+}
+
+.admin-product-list h1 {
+font-size: 20px;
+}
+}  

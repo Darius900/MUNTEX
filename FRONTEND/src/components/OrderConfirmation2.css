@@ -1,0 +1,56 @@
+.order-confirmation {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-confirmation h2 {
+    color: #4a4a4a;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .order-confirmation p {
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .order-confirmation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-confirmation li {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .order-confirmation li:last-child {
+    border-bottom: none;
+  }
+  
+  .order-confirmation img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .order-confirmation .product-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .order-confirmation .product-details span {
+    display: block;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-right: 1rem;
+  }
+  

@@ -1,0 +1,34 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+  .connect-follow span {
+    margin-right: 1rem;
+  }
+  
+  .connect-follow a {
+    color: #ffffff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .connect-follow a:hover {
+    color: #54b3d6;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #54b3d6;
+  }
+  

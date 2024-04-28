@@ -1,0 +1,44 @@
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 0px 0;
+  }
+  
+  .category-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border: 5px solid #5a9;
+    background: linear-gradient(135deg, #89b799, #5a9);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-box:hover {
+    background: linear-gradient(135deg, #6aa678, #3b7);
+  }
+  
+  .men,
+  .women {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+  }
+  
+  .equipment {
+    width: calc(100% - 10px);
+    height: calc(50% - 10px);
+  }
+  
+  .category-box h3 {
+    font-size: 48px;
+    font-weight: bold;
+    z-index: 2;
+  }
+  

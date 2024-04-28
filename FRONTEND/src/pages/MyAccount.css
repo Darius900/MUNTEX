@@ -1,0 +1,149 @@
+.my-account {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 30%;
+  margin-right: 2rem;
+  border-right: 1px solid #ccc;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #e9ecef;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.content {
+  width: 70%;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.change-password,
+.request-password-reset {
+  margin-bottom: 2rem;
+}
+
+form label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.sidebar li.active {
+  background-color: #007bff;
+}
+
+.sidebar li.active a {
+  color: #fff;
+}
+
+.sidebar li.active:hover {
+  background-color: #007bff;
+}
+
+.sidebar li.active a:hover {
+  color: #fff;
+}
+
+
+/* pentru email si nume text */
+
+.account-info-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #093bee;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.account-info-value {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-right: 20rem; 
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border: 2px solid #d7dee2; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.account-info-value:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.15); 
+}
+
+
+
+.account-info-row {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,71 @@
+.Login {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./clouds.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align
+    : center;
+}
+
+.Login-form h2 {
+margin-bottom: 40px;
+font-size: 36px;
+font-weight: bold;
+}
+
+.Login-form-input {
+margin: 20px 0;
+}
+
+.Login-form-input label {
+font-size: 18px;
+font-weight: bold;
+display: block;
+margin-bottom: 10px;
+}
+
+.Login-form-input input {
+width: 100%;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+border: 1px solid lightgray;
+}
+
+.Login-form-button {
+background-color: blue;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+}
+
+.Login-form-forgot-password {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.Login-form-forgot-password:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+

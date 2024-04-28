@@ -1,0 +1,85 @@
+.my-account {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  width: 100%;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #d7dee2;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+  background-color: #f3f6f9;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+table tbody tr:nth-child(even):hover {
+  background-color: #e9ecef;
+}
+
+.no-orders {
+  font-size: 1.25rem;
+}
+
+
+.order-details {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.order-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.order-product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+

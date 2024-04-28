@@ -1,0 +1,189 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  height: 80px;
+  padding: 0 30px;
+  font-size: 18px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #0072c6;
+}
+
+nav button {
+  padding: 10px 20px;
+  background-color: #0072c6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav button:hover {
+  background-color: #005ea6;
+}
+
+nav .left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav .right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav .cart {
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav .cart:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .cart-count {
+  background-color: #0072c6;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav .cart:hover .cart-count {
+  background-color: #005ea6;
+}
+
+nav .user {
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav .user:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav .user-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav .user:hover .user-menu {
+  display: block;
+}
+
+nav .user-menu a {
+  display: block;
+  padding: 5px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav .user-menu a:hover {
+  background-color: #eee;
+}
+
+nav .user .user-name {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  nav .left {
+    gap: 20px;
+  }
+
+  nav .right {
+    gap: 20px;
+  }
+
+  nav a {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    
+    nav .cart {
+    margin-right: 20px;
+    }
+    
+    nav .cart-count {
+    top: -6px;
+    right: -6px;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    }
+    
+    nav .user {
+    margin-left: auto;
+    }
+    
+    nav .user-menu {
+    top: calc(100% + 10px);
+    right: -10px;
+    padding: 10px 5px;
+    }
+    
+    nav .user-menu a {
+    font-size: 12px;
+    padding: 5px 0;
+    }
+    }
+
+
+
+nav .user-greeting {
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav .user-greeting:hover {
+  color: #0072c6;
+}

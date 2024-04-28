@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body, input, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Register {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./clouds.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 87vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Wrap content if not enough space */
+}
+
+.Register-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%; /* Take full width */
+  max-width: 400px; /* But limit to 400px */
+  text-align: center;
+}
+
+.Register-form h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.Register-form-input {
+  margin: 20px 0;
+}
+
+.Register-form-input label {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Register-form-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  transition: all 0.3s ease;
+}
+
+.Register-form-input input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+.Register-form-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.Register-form-button:hover {
+  background-color: darkblue;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Register {
+    height: 100vh; 
+  }
+  .Register-form {
+    padding: 20px; 
+  }
+}

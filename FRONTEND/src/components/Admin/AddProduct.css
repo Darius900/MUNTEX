@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.add-product-container {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1500px;
+  /* margin: 50px auto; */
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.add-product-container form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.add-product-container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.add-product-container input,
+.add-product-container textarea,
+.add-product-container select {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  outline: none;
+}
+
+.add-product-container input:focus,
+.add-product-container textarea:focus,
+.add-product-container select:focus {
+  box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.1);
+  background-color: #e8e8e8;
+}
+
+.add-product-container textarea {
+  resize: vertical;
+  min-height: 120px;
+  grid-column: span 2;
+}
+
+.add-product-container button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.add-product-container button:hover {
+  background-color: #ff4f4f;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.add-product-container button:active {
+  background-color: #ff3333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-container input[type="file"] {
+  cursor: pointer;
+}
+
+.add-product-container input[type="file"]::-webkit-file-upload-button {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4ecdc4;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.add-product-container input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #3dbbb3;
+}
+
+.image-upload-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
